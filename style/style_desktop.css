@@ -1,0 +1,140 @@
+body{
+    background: rgb(221, 197, 197);
+}
+
+/* HEADER */
+header{
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+h2{
+    font-size: 13px;
+    margin: 0px auto 10px auto;
+    font-weight: 300;
+}
+.M{
+    max-width: 50%;
+}
+
+/* Txt header */
+header>a:not(.logo){
+    display: initial;
+}
+.burger{
+    display: none;
+}
+
+/* box header */
+/* logo */
+.logo{
+    /* Border */
+    border-radius: 50%;
+    margin: 0px 10px 10px 10px;
+    background: linear-gradient(red, orange);
+}
+.logo:hover{
+    background: linear-gradient(red, blue);
+    transition: 0.4s;
+}
+.S{
+   height: 70px;
+    margin: 20px 40px 0px 40px;
+    padding: 3px; 
+}
+.M{
+    height: 100px;
+    padding: 4px; 
+}
+
+
+/* ************************************************************ */
+/* NAV */
+/* ************************************************************ */
+nav{
+    display: none;
+}
+
+
+/* EQUIPE */
+.equipeParent{
+    margin: 30px 200px 30px 200px; 
+}
+.equipe{
+    padding: 30px;
+    margin: 0px;
+}
+
+
+
+/* SPECTACLES */
+.spe{
+    background: white;
+    padding: 30px;
+}
+.txt{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 40vh;
+    margin: 20px 90px 0px 90px;
+}
+.txtspe{
+    color: black;
+    margin: 0px 20px auto 20px;
+}
+
+.txt>div>p{
+    margin: 20px;
+}
+.txt>div>h1{
+    font-size: 30px;
+}
+
+.imgTop{
+    display: initial;
+    background-image: url(../img/a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 90px 60px 90px;
+}
+
+.imgbottom>img{
+    height: 250px;
+}
+
+
+/* DATES */
+
+.txtdDate{
+    display: grid;
+    grid-template-columns: 20vw auto;
+    align-items: center;
+    text-align: left;
+}
+.postit{
+    background-color: rgb(255, 183, 88);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.285);
+}
+.contenerDate{
+    background: white;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    margin: 50px 170px auto 170px;
+}
+
+.contenerDate>img{
+    width: 40vw;
+    margin: auto;
+}
