@@ -359,7 +359,7 @@ footer{
 .contact>div{
     text-align: left;
     background: rgba(0, 0, 0, 0.762);
-    width: 40vw;
+    width: 90vw;
     margin: 30px;
 }
 
@@ -414,3 +414,5 @@ video {
     background-size: cover;
     transition: 1s opacity;
 }
+
+

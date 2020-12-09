@@ -138,3 +138,12 @@ nav{
     width: 40vw;
     margin: auto;
 }
+
+
+
+.contact>div{
+    text-align: left;
+    background: rgba(0, 0, 0, 0.762);
+    width: 40vw;
+    margin: 30px;
+}

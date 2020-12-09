@@ -1,0 +1,13 @@
+body{
+    background: rgb(39, 39, 39);
+    margin: 0px;
+    font-family: "Raleway";
+    padding: 30px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
