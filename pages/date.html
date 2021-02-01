@@ -9,31 +9,31 @@
     <!-- links -->
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link href = "https://fonts.googleapis.com/css2? family = Fira + Sans: ital, wght @ 0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1,100; 1,200; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800 & display = swap "rel =" styleheet ">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style_commun.css">
+    <link rel="stylesheet" href="../style/style_page.css">
     <link rel="icon" href="../img/Favicon.png" />
-    <link rel="stylesheet" media="screen and (min-width:1200px)"href="../style/style_desktop.css">
+    <link rel="stylesheet" media="screen and (min-width:1200px)"href="../style/desktop.css">
 </head>
 <body>
     <!-- header -->
     <header>
-        
-        
+        <a href="../pages/spe.html">
+            <img src="../img/spectacle.jpg" alt=""  onclick="menu()" class="logo S">
+            <h2>QUI SOMMES<br>NOUS ?</h2>
+        </a>
         <a href="../pages/equipe.html">
             <img src="../img/equipe.jpg" alt=""  onclick="menu()" class="logo S">
             <h2>NOTRE<br>EQUIPE</h2>
         </a>
-        <a href="../pages/date.html">
-            <img src="../img/spectacle.jpg" alt=""  onclick="menu()" class="logo S">
-            <h2>NOS<br>SPECTACLES </h2>
-        </a>
-        <img src="../img/menu.png" alt=""  onclick="menu()" class="burger">
-        <img src="../img/logo.jpg" alt=""  onclick="menu()" class="logo M">
-        <img src="../img/meunT.png" alt=""  onclick="menu()" class="burger none">
-        <a href="../index.html">
-            <img src="../img/accueil.jpg" alt=""  onclick="menu()" class="logo S">
-            <h2>PAGE<br>D'ACCUEIL</h2>
-        </a>
         
+        <img src="../img/menu.png" alt=""  onclick="menu()" class="burger">
+        <a href="../index.html" class="not"><img src="../img/FlamingLogo.png" alt=""  onclick="menu()" class="M"></a>
+        <img src="../img/meunT.png" alt=""  onclick="menu()" class="burger none">
+
+        <a href="../pages/date.html">
+            <img src="../img/date.jpg" alt=""  onclick="menu()" class="logo S hilight">
+            <h2>NOS<br>DATES </h2>
+        </a>
         <a href="../pages/contact.html">
             <img src="../img/contact.jpg" alt=""  onclick="menu()" class="logo S">
             <h2>NOUS<br>CONTACTER</h2>
@@ -71,59 +71,66 @@
         </a>       
     </nav>
     <!-- main -->
-    <div class="date">
-       <div class="contenerDate">
-           <img src="../img/spé1.jpg" alt="">
-           <h1>NOM DU SPECTACLE</h1>
-           <h3>Flaming Soul</h3>
-           <div class="txtdDate">
-               
-               <div class="postit">
-                    <H4>Lundi 25 Janvier</H4>
-                    <h5>16h30</h5>
-                    <h4>Mulhouse</h4>
-               </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sunt omnis minus earum ullam fuga libero. Dolorem exercitationem doloremque harum amet reprehenderit, aut natus neque molestias iure? Aliquam, error debitis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sunt om<br>it. Inventore, sunt omnis minus earum ullam fuga libero. Dolorem exercitationem doloremque harum amet reprehenderit, aut natus neque molestias iure? Aliquam, error debitis!</p>
-           </div>
-
-       </div>
-       <div class="contenerDate">
-            <img src="../img/spé2.jpg" alt="">
-            <h1>NOM DU SPECTACLE</h1>
-            <h3>Flaming Soul</h3>
-            <div class="txtdDate">
-                
+    <div class="spe">
+        <div class="txt">
+            <img src="../img/spé1.jpg" alt=""> 
+            <div>
+                <H1 class="txtspe">La flamme ardente
+                </H1>
+                <p class="txtspe">
+                    Le spectacle se déroule en 850, en Norvège chez les Vikings. Le personnage principal Olaf avec ses amis ont toujours eu le loisir de s’amuser avec le feu. Tous les jours, ils se retrouvaient pour jouer ensemble à manipuler du feu. Puis au fur et à mesure ils commençaient à exceller dans le domaine. Olaf étant fou amoureux d’Astrid, la fille du jarl (prononcer « yarl » est l'équivalent de comte). Olaf demande alors à ses amis s’ils peuvent l’aider à impressionner Astrid et tout le village avec leur “magie” de feu. Le jarl donnait l’accord aux jeunes amis de faire un spectacle le tout accompagné d’un festin. Olaf met en place ce spectacle avec pour seul objectif d'impressionner Astrid et de lui demander sa main une fois la représentation finie.</p>
                 <div class="postit">
-                     <H4>Lundi 25 Janvier</H4>
-                     <h5>16h30</h5>
-                     <h4>Mulhouse</h4>
+                    <h3>Lundi 19 Juillet 2021</h3>
+                    <h3>20h</h3>
+                    <h3>Mulhouse</h3>
                 </div>
-                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sunt omnis minus earum ullam fuga libero. Dolorem exercitationem doloremque harum amet reprehenderit, aut natus neque molestias iure? Aliquam, error debitis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sunt om<br>it. Inventore, sunt omnis minus earum ullam fuga libero. Dolorem exercitationem doloremque harum amet reprehenderit, aut natus neque molestias iure? Aliquam, error debitis!</p>
             </div>
- 
         </div>
-        <div class="contenerDate">
-                <img src="../img/spé3.jpg" alt="">
-                <h1>NOM DU SPECTACLE</h1>
-                <h3>Flaming Soul</h3>
-                <div class="txtdDate">
+
+        <hr class="datehr">
+
+        <div class="txt">
+            <img src="../img/spé2.jpg" alt=""> 
+            <div>
+                <H1 class="txtspe">Titre du spécatcle</H1>
+                <p class="txtspe">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt tortor id elit egestas, at elementum nisi sodales. Etiam elementum, ante vel dapibus blandit, enim eros feugiat arcu, et blandit dolor urna a est. Nulla ullamcorper, risus a rhoncus feugiat, ante diam aliquam augue, sodales elementum leo sem nec enim. Praesent suscipit lectus rutrum turpis porta, a fringilla elit sagittis. Curabitur aliquam non quam vitae pretium. Quisque quis urna in 
+
+                dolor ullamcorper condimentum sagittis laoreet diam. Mauris faucibus justo nunc, id placerat dui vulputate eu. Praesentrisus a rhoncus feugiat, ante diam aliquam augue, sodales elementum leo sem nec enim. Praesent suscipit lectus rutrum turpis porta, a fringilla elit sagittis. Curabitur aliquam non quam vitae pretium. Quisque quis urna in 
                     
-                    <div class="postit">
-                         <H4>Lundi 25 Janvier</H4>
-                         <h5>16h30</h5>
-                         <h4>Mulhouse</h4>
-                    </div>
-                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sunt omnis minus earum ullam fuga libero. Dolorem exercitationem doloremque harum amet reprehenderit, aut natus neque molestias iure? Aliquam, error debitis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sunt om<br>it. Inventore, sunt omnis minus earum ullam fuga libero. Dolorem exercitationem doloremque harum amet reprehenderit, aut natus neque molestias iure? Aliquam, error debitis!</p>
+                dolor ullamcorper condimentum sagittis laoreet diam. Mauris faucibus justo nunc, id placerat dui vulputate eu. Praesent eget tristique m</p>
+                <div class="postit">
+                    <h3>Lundi 27 Janvier</h3>
+                    <h3>23h</h3>
+                    <h3>Mulhouse</h3>
                 </div>
-     
             </div>
+        </div>
+
+        <hr class="datehr">
+
+        <div class="txt">
+            <img src="../img/spé3.jpg" alt=""> 
+            <div>
+                <H1 class="txtspe">Titre du spécatcle</H1>
+                <p class="txtspe">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt tortor id elit egestas, at elementum nisi sodales. Etiam elementum, ante vel dapibus blandit, enim eros feugiat arcu, et blandit dolor urna a est. Nulla ullamcorper, risus a rhoncus feugiat, ante diam aliquam augue, sodales elementum leo sem nec enim. Praesent suscipit lectus rutrum turpis porta, a fringilla elit sagittis. Curabitur aliquam non quam vitae pretium. Quisque quis urna in 
+
+                dolor ullamcorper condimentum sagittis laoreet diam. Mauris faucibus justo nunc, id placerat dui vulputate eu. Praesentrisus a rhoncus feugiat, ante diam aliquam augue, sodales elementum leo sem nec enim. Praesent suscipit lectus rutrum turpis porta, a fringilla elit sagittis. Curabitur aliquam non quam vitae pretium. Quisque quis urna in 
+                    
+                dolor ullamcorper condimentum sagittis laoreet diam. Mauris faucibus justo nunc, id placerat dui vulputate eu. Praesent eget tristique m</p>
+                <div class="postit">
+                    <h3>Lundi 27 Janvier</h3>
+                    <h3>23h</h3>
+                    <h3>Mulhouse</h3>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- footer -->
     <footer>
         <div class="foot">
             <a href="../pages/mention.html">Mentions Légales</a>
-            <a href="../pages/CGV.svg">CGV</a>
+            <a href="../pages/CGV.html">CGV</a>
             <a href="../pages/contact.html">Nous Contacter</a>
         </div>
         <p> ©Copyright - Yuzuu Communication 2021</p>
